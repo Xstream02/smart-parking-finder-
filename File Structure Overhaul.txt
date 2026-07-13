@@ -1,0 +1,18 @@
+SmartParkingFinder/
+│
+├── app/
+│   ├── __init__.py          # App factory and extensions initialization
+│   ├── models.py            # SQLAlchemy Database Models
+│   ├── extensions.py        # Shared extensions (db, socketio, login_manager)
+│   ├── routes/
+│   │   ├── main_routes.py   # Web UI routes (/, /admin)
+│   │   ├── auth_routes.py   # Auth APIs (/api/auth/*)
+│   │   └── parking_routes.py# Parking APIs (/api/parking/*)
+│   └── vision_worker.py     # Background task for vision timeouts
+│
+├── run.py                   # Entry point (formerly app.py)
+├── database.db              
+├── vision_module.py         
+├── requirements.txt         
+├── static/                  
+└── templates/               

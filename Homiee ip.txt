@@ -1,0 +1,5 @@
+NAME                 TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE
+fancy-monolith-727   LoadBalancer   34.118.236.143   34.24.8.30    80:31063/TCP   6m40s
+fancy-orders-466     LoadBalancer   34.118.228.40    <pending>     80:31493/TCP   23s
+fancy-products-826   LoadBalancer   34.118.230.164   <pending>     80:30657/TCP   11s
+kubernetes           ClusterIP      34.118.224.1     <none>        443/TCP        10m

@@ -1,0 +1,12 @@
+Flask
+Werkzeug
+requests
+Flask-SocketIO
+Flask-Login
+python-socketio
+python-engineio
+eventlet
+Flask-SQLAlchemy
+qrcode
+Pillow
+opencv-python
